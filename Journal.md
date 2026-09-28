@@ -17,3 +17,49 @@ After Making the basic structure i got to know that we also need to keep the sap
 There was also some need to change the design the slitly to fit in the motor proerly as i made it too compact for motor to go in hence added more gaps from all the four sides 
 
 
+Journal #3 by @aryansalvehub
+
+Time - 51min +  1hr 36 min
+
+After making the 2nd arm, there was now a need to add a 3rd servo motor, which would move the gripper up and down using the movement of the 2nd joystick. Therefore, the arm needed to be stronger to support the weight of the servo as well as the object it would pick up. To achieve this, I made the walls thicker and added a broader attachment, making the structure strong enough to properly handle the combined weight of the object and the two servos.
+
+
+journal #4 by @Mwezi2000
+total time = 1 hr 28 mins
+
+i started with tx schematics for which i used arduino nano as transmitter
+The goal here is pretty simple: two analog thumbsticks to give me 4-axis proportional control over the arm's servos, plus their built-in pushbuttons for claw toggle and mode selection.
+
+<img width="1461" height="868" alt="image" src="https://github.com/user-attachments/assets/b3933581-12c9-492b-8188-362707c5ad3d" />
+
+for the arm receiver side today. Since servos are notorious for drawing tons of current and resetting microcontrollers, I decided to give every single servo motor its own dedicated L7805 regulator with input/output filter caps so the lines stay clean. The Arduino Uno handles the PWM signals from digital pins D3, D5, D6, and D9, running off the main battery rail through a diode and master power switch. Threw in a quick 330Ω resistor and LED on the Uno's 5V rail as a basic power indicator. Realized I still need to drop in the actual RF receiver module pinout so it can talk to the remote, but the main power routing and motor control sections are basically done
+
+
+<img width="1466" height="872" alt="image" src="https://github.com/user-attachments/assets/4d5821b2-21b5-41b7-bce2-8dac3b8bc5b9" />
+
+journal #5 by @Mwezi2000
+total time = 4 hrs 42 mins (1hr 2 min + 2hr 5 min + 1 hr 35 min )
+
+for this weeks theme "treasure" i made some cool art (could not put it on roboarm till now, will update soon )
+
+<img width="1469" height="931" alt="image" src="https://github.com/user-attachments/assets/70d9916b-18f0-4b47-a206-8a8e49a93a14" />
+
+next was this crazy treasure map which took a whole lot of timeee!
+
+<img width="1470" height="915" alt="image" src="https://github.com/user-attachments/assets/2cf86b10-b950-4d91-98bb-9ee9f01d75bb" />
+
+
+<img width="1470" height="925" alt="image" src="https://github.com/user-attachments/assets/d6fd1d20-0c38-4688-9b70-f74d6063d77f" />
+
+
+<img width="1470" height="930" alt="image" src="https://github.com/user-attachments/assets/366a22aa-e63e-4d17-9a90-450c2e53f1bf" />
+
+this was it for the treasure art!
+
+
+
+journal 5 by @Mwezi2000
+total time = 3hr 33min    ( 2hr 2 min + 1hr 31 min )
+
+
+

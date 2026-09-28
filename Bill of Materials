@@ -1,0 +1,24 @@
+| Component                    | Specification          |    Quantity | Use                                                                                      |
+| ---------------------------- | ---------------------- | ----------: | ---------------------------------------------------------------------------------------- |
+| **PS2 Joystick**             | HW504 Analog Joystick  |           2 | Used to control the different movements of the robotic arm.                              |
+| **Arduino Nano**             | ATmega328P             |           1 | Reads the joystick inputs and sends the control signals to the receiver.                 |
+| **Arduino Uno**              | ATmega328P             |           1 | Receives the commands and controls the four servo motors.                                |
+| **MG90S Servo Motor**        | Metal Gear Micro Servo |           4 | Used for the four movements of the robotic arm: base, shoulder, elbow/wrist and gripper. |
+| **LM7805 Voltage Regulator** | 5 V Regulator          |           5 | Provides regulated power for the control and servo circuits.                             |
+| **LiPo Battery**             | 2-Cell, 7.4 V          |           1 | Main power source for the system.                                                        |
+| **Toggle Switch**            | SPST                   |           2 | Used to turn the transmitter/receiver system ON or OFF.                                  |
+| **LED**                      | Red                    |           2 | Indicates that the circuit is powered.                                                   |
+| **330 Ω Resistor**           | 330 Ω                  |           2 | Used with the LEDs to limit current.                                                     |
+| **Diode**                    | 1N4007 / 1N5819        |           2 | Provides protection in the power circuit.                                                |
+| **Ceramic Capacitor**        | 0.01 µF                |           4 | Used for filtering and reducing electrical noise.                                        |
+| **Ceramic Capacitor**        | 0.1 µF                 |           4 | Used for power-supply filtering and stability.                                           |
+| **2-Pin Connector**          | PCB Connector          |           2 | Used to connect the power supply to the PCB.                                             |
+| **Female Berg Strip**        | Female Header          |           2 | Used to make removable connections between components and the PCB.                       |
+| **Zero PCB**                 | Universal PCB          |           2 | Used to mount and connect the electronic components.                                     |
+| **M3 × 15 mm Bolt**          | M3                     |          30 | Used to assemble the 3D-printed mechanical parts.                                        |
+| **M3 × 12 mm Bolt**          | M3                     |          25 | Used for fastening smaller mechanical parts.                                             |
+| **M3 × 20 mm Spacer**        | M3                     |          20 | Keeps parts at the required distance and provides structural support.                    |
+| **M3 × 25 mm Spacer**        | M3                     |           5 | Used where a larger gap is required between parts.                                       |
+| **M3 Hex Nut**               | M3                     |          15 | Used with the bolts to secure the mechanical assembly.                                   |
+| **PLA+ Filament**            | 1.75 mm                |       ~70 g | Used to 3D print the robotic arm's links, gripper and other structural parts.            |
+| **Acrylic Sheet**            | 3–5 mm                 | As required | Used to make the rigid base of the robotic arm.                                          |

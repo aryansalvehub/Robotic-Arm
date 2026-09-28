@@ -60,7 +60,15 @@ Spent some time in Fusion modeling the mechanical gripper assembly today. Got th
 
 <img width="1470" height="928" alt="image" src="https://github.com/user-attachments/assets/616506e6-ed8f-4b89-8047-d7babaf0d836" />
 
-and finally finished it by updating journal and readm
+and finally finished it by updating journal and readme
+
+Journal #6 by @aryansalvehub
+
+Time - 4 hrs
+
+For this artwork, I wanted to make something fun and simple based on our robotic arm project. I took inspiration from the **Chrome dinosaur game** and mixed it with a few technology-related elements, like the Wi-Fi symbol. I liked the idea of showing the dinosaur in different sizes and positions to give the artwork a sense of movement. The desert, clouds, and cacti make it feel like a small game scene, while the pixel-art style keeps it connected to the idea of technology. Overall, I wanted the artwork to be playful and creative instead of making it look too technical.
+<img width="593" height="834" alt="art for robotic arm" src="https://github.com/user-attachments/assets/0704b5e7-5056-46e2-aea2-84b92579b1c0" />
+
 
 
 

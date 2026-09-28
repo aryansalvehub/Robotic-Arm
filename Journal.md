@@ -55,5 +55,12 @@ this was it for the treasure art!
 journal 5 by @Mwezi2000
 total time = 3hr 33min    ( 2hr 2 min + 1hr 31 min )
 
+Spent some time in Fusion modeling the mechanical gripper assembly today. Got the main dual-spur gear linkage laid out so both fingers close smoothly and symmetrically together. Modeled the top enclosure plate with mounting holes and cutouts to keep the whole gear train aligned and dust-free. Added the pivot link and locating pin to connect the servo horn directly to the driving side. Still have to double-check my hole tolerances for the hinge pins before sending anything to the 3D printer, but the CAD assembly is finally looking solid.
+
+
+<img width="1470" height="928" alt="image" src="https://github.com/user-attachments/assets/616506e6-ed8f-4b89-8047-d7babaf0d836" />
+
+and finally finished it by updating journal and readm
+
 
 

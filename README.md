@@ -24,3 +24,47 @@ The main goal of the project is to develop a robotic arm capable of picking and 
 
 
 Overall, this project is an excellent application of knowledge in CAD, 3D printing, laser cutting, Arduino programming, and robotics. The project goes further to demonstrate a working knowledge of how to configure a simple robotic arm that is capable of mimicking human motion to perform a specific task.
+
+| Component         | Specification            | Quantity |
+| ----------------- | ------------------------ | -------: |
+| PS2 Joystick      | HW504 Analog Joystick    |        2 |
+| Arduino Nano      | ATmega328P               |        1 |
+| Voltage Regulator | LM7805                   |        1 |
+| 2-Pin Connector   | PCB Connector            |        1 |
+| Toggle Switch     | SPST                     |        1 |
+| LED               | Red                      |        1 |
+| Resistor          | 330 Ω                    |        1 |
+| Diode             | 1N4007 / 1N5819          |        1 |
+| Battery           | 2S LiPo, 7.4 V           |        1 |
+| PCB               | Universal PCB, 8 × 18 cm |        1 |
+
+
+
+| Component         | Specification                | Quantity |
+| ----------------- | ---------------------------- | -------: |
+| Servo Motor       | MG90S Metal Gear Micro Servo |        4 |
+| Arduino Uno       | ATmega328P                   |        1 |
+| Voltage Regulator | LM7805                       |        4 |
+| LED               | Red                          |        1 |
+| 2-Pin Connector   | PCB Connector                |        1 |
+| Diode             | 1N4007 / 1N5819              |        1 |
+| Ceramic Capacitor | 0.01 µF                      |        4 |
+| Ceramic Capacitor | 0.1 µF                       |        4 |
+| Female Berg Strip | Female Header                |        2 |
+| Toggle Switch     | SPST                         |        1 |
+| Resistor          | 330 Ω                        |        1 |
+| PCB               | Zero PCB, 10 × 10 cm         |        1 |
+
+The project architecture specifies TX (D1) → RX (D0) with a common ground between the two Arduino boards.
+
+The Nano reads the joystick positions and sends the corresponding control information to the Uno. The Uno then converts the received commands into PWM signals for the four servos.
+
+The project uses:
+
+Arduino IDE — microcontroller programming
+Fusion 360 — mechanical CAD and design
+Fracktory — 3D-print preparation
+LaserCAD — laser-cut preparation
+UART Serial Communication — Nano-to-Uno communication
+PWM — servo control
+

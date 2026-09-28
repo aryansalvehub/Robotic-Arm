@@ -17,12 +17,6 @@ After Making the basic structure i got to know that we also need to keep the sap
 There was also some need to change the design the slitly to fit in the motor proerly as i made it too compact for motor to go in hence added more gaps from all the four sides 
 
 
-Journal #3 by @aryansalvehub
-
-Time - 51min +  1hr 36 min
-
-After making the 2nd arm, there was now a need to add a 3rd servo motor, which would move the gripper up and down using the movement of the 2nd joystick. Therefore, the arm needed to be stronger to support the weight of the servo as well as the object it would pick up. To achieve this, I made the walls thicker and added a broader attachment, making the structure strong enough to properly handle the combined weight of the object and the two servos.
-
 
 journal #4 by @Mwezi2000
 total time = 1 hr 28 mins

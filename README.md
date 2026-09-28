@@ -68,3 +68,29 @@ LaserCAD — laser-cut preparation
 UART Serial Communication — Nano-to-Uno communication
 PWM — servo control
 
+
+#WORKING IDEA
+1. Joystick Input
+
+The two HW504 joysticks provide analog X/Y values.
+
+2. Input Processing
+
+The Arduino Nano reads these analog values and converts them into commands for the four robotic-arm movements.
+
+3. UART Transmission
+
+The Nano transmits the control information through the UART TX line.
+
+4. Command Reception
+
+The Arduino Uno receives the data through its RX line.
+
+5. Servo Control
+
+The Uno converts the received commands into PWM signals.
+
+6. Robotic Movement
+
+The four MG90S servos operate:
+
